@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpeg);
+    background-size: cover;
+    font-family: sans-serif;
+    color:#fff
+}
+h1{
+    margin: 0 0 10px;
+    padding: 0;
+    color:aquamarine;
+    font-size: 24px;
+    margin:auto;
+    margin-left: 600px;
+}
+h2{
+    color:coral;
+}
+.box{
+    position: absolute;
+    top: 10%;
+    width: 900px;
+    color:#fff;
+    
+    margin-left: 150px;
+    
+}
+article-container{
+   color:black;
+   justify-content: center;
+   width: 400px;
+}
+input{
+    margin-left: 400px;
+    border-radius: 25px 0 0 25px;
+    border: none;
+    outline: none;
+    padding: 0 35px;
+    width: 300px;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .5s;
+    margin-top:100px;
+    justify-content:right;
+}
+input[type="text"]{
+    margin-top:100px
+}
+B{
+    margin-top: 0;
+    font-size: 35px;
+    color:#ffc107;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+    border-radius: 0 25px 25px 0;
+    position: relative;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    left: -5px;
+    width: 100px;
+    height: 50px;
+    background-color:#ffc107;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background: #ff5722;
+}
